@@ -59,22 +59,26 @@ nav ul li {
     font-size: 20px;
 }
 .leadership {
-    background-color: #0286fe;
     margin-top: 30px;
     margin-bottom: 10px;
     padding-bottom: 30px;
 }
 
 .leadership> header {
-    height: 100px;
-    background-color: #abcfe7;
     margin: 30px 0;
 }
 
+.leadership header h1 {
+    font-size: 30px;
+}
+
+.leadership header div {
+    color: #d2d2d2;
+    font-size: 16px;
+}
+
 .col {
-    height: 600px;
     width: 25%;
-    background-color: #abcfe7;
     float: left;
 }
 
@@ -83,6 +87,39 @@ nav ul li {
     margin: 0 20px;
 }
 
+.rounded-box {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.transbox {
+    height: 100%;
+    background-color: #cccccc;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+#img-1 {
+    background-image: url(../img/img-1.jpg);
+}
+
+#img-2 {
+    background-image: url(../img/banner-2.jpg);
+}
+
+#img-3 {
+    background-image: url(../img/img-3.jpg);
+}
+
+.col {
+    color: #d2d2d2;
+}
+
+.column-section .col h2 {
+    padding: 20px 0;
+    color: grey;
+}
 
 /* Footer */
 footer {
