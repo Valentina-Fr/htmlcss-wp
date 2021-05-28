@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+#main-header {
+    margin: 30px 0;
+}
+
+nav {
+    margin: 30px 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#main-header nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #d2d2d2;
+}
+
+/* Corpo pagina */
+
+
+.spotlight {
+    height: 500px;
+    background-color: #e1d67a;
+    margin: 30px 0;
+}
+
+.leadership {
+    background-color: #0286fe;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+.leadership> header {
+    height: 100px;
+    background-color: #abcfe7;
+    margin: 30px 0;
+}
+
+.col {
+    height: 600px;
+    width: 25%;
+    background-color: #abcfe7;
+    float: left;
+}
+
+.column-section .col:nth-child(2) {
+    width: calc(50% - 40px);
+    margin: 0 20px;
+}
+
+
+/* Footer */
+footer {
+    height: 60px;
+    background-color: #8800fe;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
