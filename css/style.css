@@ -12,6 +12,7 @@ body {
     font-family: sans-serif;
 }
 
+/* Utils */
 .clearfix::after {
     content: "";
     display: table;
@@ -40,14 +41,23 @@ nav ul li {
 }
 
 /* Corpo pagina */
-
-
 .spotlight {
     height: 500px;
-    background-color: #e1d67a;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    color: white;
+    border-radius: 10px;
+    padding: 350px 550px 0 50px;
     margin: 30px 0;
 }
 
+.spotlight h1 {
+    font-size: 30px;
+}
+
+.spotlight div {
+    font-size: 20px;
+}
 .leadership {
     background-color: #0286fe;
     margin-top: 30px;
